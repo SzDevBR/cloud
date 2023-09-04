@@ -1,18 +1,21 @@
-{
-  "name": "web-service-project",
+{{
+  "name": "seu-nome-de-projeto",
   "version": "1.0.0",
-  "description": "Um projeto de web service Node.js",
+  "description": "Descrição do seu projeto",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: nenhum teste especificado\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "Seu Nome",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "multer": "^1.4.3",
-    "unzipper": "^0.10.2"
-    // Outras dependências do seu projeto aqui
+    "mongoose": "^6.0.12",
+    "child_process": "^16.2.0",
+    "fs": "0.0.1-security", 
+    "path": "^0.12.7",
+    "unzipper": "^0.10.0"
+  },
+  "engines": {
+    "node": "14.x" // Versão do Node.js que seu projeto requer
   }
 }
