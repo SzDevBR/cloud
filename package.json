@@ -16,6 +16,6 @@
     "unzipper": "^0.10.0"
   },
   "engines": {
-    "node": "14.x" // Versão do Node.js que seu projeto requer
+    "node": "16.6.0"
   }
 }
